@@ -1,0 +1,48 @@
+		/* mobile */
+		
+		@media(min-width:320px){
+			.container{
+				width:95%;
+				margin:auto;
+			}
+			.portfoilo-row{
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.portfoilo-col{
+				width:100%;
+			}
+		}
+		
+		
+		
+		/* i-pad */
+		@media(min-width:760px){
+			.container{
+				width:80%;
+				margin:auto;
+			}
+			.portfoilo-row{
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.portfoilo-col{
+				width:50%;
+			}
+		}
+		
+		/* laptop */
+		@media(min-width:960px){
+			.container{
+				width:80%;
+				margin:auto;
+			}
+			.portfoilo-row{
+				display:flex;
+				flex-wrap:wrap;
+			}
+				.portfoilo-col{
+					width:33.33%;
+			}
+		}
+		
